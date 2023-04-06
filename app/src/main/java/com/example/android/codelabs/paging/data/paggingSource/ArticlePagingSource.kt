@@ -9,7 +9,7 @@ import java.time.LocalDateTime
 
 private val firstArticleCreatedTime = LocalDateTime.now()
 // to simulate real delay
-private const val LOAD_DELAY_MILLIS = 3_000L
+private const val LOAD_DELAY_MILLIS = 1_500L
 
 
 class ArticlePagingSource : PagingSource<Int, Article>() {
